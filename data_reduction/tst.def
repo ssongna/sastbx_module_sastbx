@@ -1,0 +1,50 @@
+experiment {
+  date = None
+  beamline = None
+  id = None
+  data_set {
+    hutch_setup {
+      wavelength = None
+      detector {
+        type = *adsc
+        distance = 300
+        beam_origin_x = None
+        beam_origin_y = None
+        angle_alpha = 0
+        angle_beta = 0
+        angle_gamma = 0
+        exclude {
+          circle {
+            origin = None
+            radius = None
+          }
+          rectangle {
+            corner = None
+          }
+        }
+        shadow {
+          circle {
+            origin = None
+            radius = None
+          }
+          rectangle {
+            corner = None
+          }
+        }
+      }
+    }
+    specimen {
+      type = sample background
+      id = None
+      details {
+        path_length = 1
+        concentration = None
+      }
+      data {
+        base = None
+        range = None
+        exclude_range = None
+      }
+    }
+  }
+}

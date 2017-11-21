@@ -1,0 +1,48 @@
+<html>
+<head>
+ <title> Models from Shapeup</title>
+ <script src="/jmol/Jmol.js" type="text/javascript"></script>
+ <script type="text/javascript" src="/openflashchart/js/swfobject.js"></script>
+</head>
+[<a href="/cgi-bin/index.html">Index of Services</a>]
+[<a href="/cgi-bin/shapeup.html">New input</a>]
+[<a href="models.html">Model Summary Page</a>]
+<hr>
+<body>
+  <script type="text/javascript">
+  jmolInitialize("/jmol");
+  </script>
+ <table border="1">
+ <tr>
+ <th> Model </th>
+ <th> Data  </th>
+ <th> Name  </th>
+ <th> Correlation Coefficient<small><a href="#cc">*</a></small> </th>
+ <th> cluster ID </th>
+ <th> Link to PDB</th>
+ </tr>
+
+
+<tr>
+ <td>
+  <script>
+   script0 =
+   'isosurface cutoff 0.087216 "m3_2WAD.ccp4";background white;color isosurface translucent; center $isosurface1;zoom 30; set spiny 10;set spinfps 15;spin off;';
+   jmolApplet(480, script0);
+  </script>
+ </td>
+ <td>
+  <script type="text/javascript">
+   swfobject.embedSWF("/openflashchart/open-flash-chart.swf", "my_chart", "480", "360", "9.0.0","expressInstall.swf", {"data-file":"query_3.iq.json"});
+  </script>
+  <div id="my_chart"></div>
+ </td>
+ <td>2WAD</td>
+ <td><center>0.87</center></td>
+ <td><center>3</center></td>
+ <td><a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=2WAD" target="_blank"> 2WAD  </a></td>
+  </tr>
+
+</table>
+<p><a name="cc">* Correlation Coeffient is computed w.r.t. the given PDB model (if any) or the Best Model found </a>
+</body></html>

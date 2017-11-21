@@ -1,0 +1,415 @@
+the Input parameters are:
+['target=/Users/Song/Desktop/examples/pr/bioisis32.dat', 'buildmap=True', 'scan=True', 'prefix=/Users/Song/Desktop/Shape_Search_Engine/bioisis32']
+#phil __OFF__
+-------------------Searching the protein DATABASE for similar shapes-------------------
+
+#phil __ON__
+#phil __END__
+
+ATTENTION: Database path was set to : >>/Users/Song/Documents/2017/sastbx/modules/cctbx_project/sastbx/database/<<
+Guinier analysis failed, R_max is required
+ATTENTION: dummy values for Rg and Io set
+ ====  Data reduction ==== 
+  Preprocessing of data increases efficiency of shape retrieval procedure.
+   -  Interpolation stepsize                           :  6.080e-04
+   -  Uniform density criteria:  level is set to       :  1.000e-02
+                                 maximum q to consider :  2.000e-01
+      Resulting q range to use in  search:   q start   :  1.247e-02
+                                             q stop    :  1.177e-01
+ ==== Reading in shape database ==== 
+   Done reading database with 10733 entries in 1.5833e-01 seconds
+ ==== Shape retrieval ==== 
+   Constructing shape retrieval object
+   Shape search  .... 
+   Search range of rmax  :   125.00 A  ----  25.00 A
+RMAX:  63.196601125
+The top 1 match is 1CQ4 0.003
+The top 2 match is 1PZN 0.003
+The top 3 match is 2EXT 0.003
+The top 4 match is 1WAP 0.003
+The top 5 match is 1Q5X 0.003
+The top 6 match is 2V9U 0.002
+The top 7 match is 1R94 0.003
+The top 8 match is 1TR0 0.003
+The top 9 match is 3H46 0.003
+The top 10 match is 1ZA6 0.003
+RMAX:  86.803398875
+The top 1 match is 3ECO 0.002
+The top 2 match is 2INR 0.002
+The top 3 match is 2PFD 0.002
+The top 4 match is 1ZKE 0.002
+The top 5 match is 1T07 0.002
+The top 6 match is 2PZI 0.002
+The top 7 match is 1EEJ 0.002
+The top 8 match is 2FPE 0.002
+The top 9 match is 1AB4 0.002
+The top 10 match is 1CZD 0.002
+     Starting search
+
+      .RMAX:  101.39320225
+The top 1 match is 1RHF 0.002
+The top 2 match is 1WPB 0.002
+The top 3 match is 2Z6E 0.002
+The top 4 match is 2JCG 0.002
+The top 5 match is 3H09 0.002
+The top 6 match is 2HFK 0.002
+The top 7 match is 2VAK 0.002
+The top 8 match is 2IXS 0.002
+The top 9 match is 3IN6 0.002
+The top 10 match is 3FOD 0.002
+.RMAX:  77.7864045
+The top 1 match is 2P1Y 0.002
+The top 2 match is 1N0E 0.002
+The top 3 match is 2W08 0.002
+The top 4 match is 3FBY 0.002
+The top 5 match is 1I4A 0.002
+The top 6 match is 1H1O 0.002
+The top 7 match is 1JJH 0.002
+The top 8 match is 3EYT 0.002
+The top 9 match is 3FCN 0.002
+The top 10 match is 2AWA 0.002
+.RMAX:  92.3762078751
+The top 1 match is 43C9 0.002
+The top 2 match is 2BUJ 0.002
+The top 3 match is 3ICX 0.002
+The top 4 match is 2ZFW 0.002
+The top 5 match is 2EK0 0.002
+The top 6 match is 2NOV 0.002
+The top 7 match is 2NSC 0.002
+The top 8 match is 2OH5 0.002
+The top 9 match is 3C5P 0.002
+The top 10 match is 1T07 0.002
+.RMAX:  83.3592135001
+The top 1 match is 1P49 0.002
+The top 2 match is 2PG4 0.002
+The top 3 match is 3BJO 0.002
+The top 4 match is 2Q06 0.002
+The top 5 match is 2WAD 0.002
+The top 6 match is 1XW3 0.002
+The top 7 match is 3GWY 0.002
+The top 8 match is 1AB4 0.002
+The top 9 match is 2GQF 0.002
+The top 10 match is 1B77 0.002
+.RMAX:  81.2305898749
+The top 1 match is 2WAD 0.002
+The top 2 match is 3FCN 0.002
+The top 3 match is 3FBY 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2OQR 0.002
+The top 7 match is 2FIQ 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 2PG4 0.002
+The top 10 match is 3BJO 0.002
+.RMAX:  79.9150281253
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2FIQ 0.002
+The top 7 match is 2OQR 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2P1Y 0.002
+.RMAX:  79.1019662497
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 2P1Y 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 3ELF 0.002
+The top 7 match is 1I4A 0.002
+The top 8 match is 2FIQ 0.002
+The top 9 match is 1B33 0.002
+The top 10 match is 2OQR 0.002
+.RMAX:  80.4175279993
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2OQR 0.002
+The top 7 match is 2FIQ 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2P1Y 0.002
+.RMAX:  80.7280900008
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2OQR 0.002
+The top 7 match is 2FIQ 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2P1Y 0.002
+.RMAX:  80.2255901268
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2FIQ 0.002
+The top 7 match is 2OQR 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2P1Y 0.002
+.RMAX:  80.1069659978
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2FIQ 0.002
+The top 7 match is 2OQR 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2P1Y 0.002
+.RMAX:  80.2989038704
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2FIQ 0.002
+The top 7 match is 2OQR 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2P1Y 0.002
+.
+
+    Done after 12 iterations
+
+   Best rmax found       :   80.23 A
+RMAX:  80.2255901268
+The top 1 match is 3FCN 32.573
+The top 2 match is 3FBY 39.668
+The top 3 match is 2WAD 51.898
+The top 4 match is 3ELF 96.732
+The top 5 match is 1JSG 105.396
+The top 6 match is 2FIQ 123.990
+The top 7 match is 2OQR 124.588
+The top 8 match is 1B33 133.925
+The top 9 match is 1I4A 150.160
+The top 10 match is 2P1Y 161.456
+RMAX:  75
+The top 1 match is 1V5W 0.002
+The top 2 match is 1JJH 0.002
+The top 3 match is 1N0E 0.002
+The top 4 match is 1H8G 0.002
+The top 5 match is 2W08 0.002
+The top 6 match is 1VCF 0.002
+The top 7 match is 1ORV 0.002
+The top 8 match is 1OK7 0.002
+The top 9 match is 2P1Y 0.002
+The top 10 match is 2ZYL 0.002
+RMAX:  76
+The top 1 match is 1JJH 0.002
+The top 2 match is 1N0E 0.002
+The top 3 match is 1V5W 0.002
+The top 4 match is 2W08 0.002
+The top 5 match is 2P1Y 0.002
+The top 6 match is 1H8G 0.002
+The top 7 match is 1VCF 0.002
+The top 8 match is 1OK7 0.002
+The top 9 match is 1ORV 0.002
+The top 10 match is 3EYT 0.002
+RMAX:  77
+The top 1 match is 1N0E 0.002
+The top 2 match is 2P1Y 0.002
+The top 3 match is 1JJH 0.002
+The top 4 match is 2W08 0.002
+The top 5 match is 3EYT 0.002
+The top 6 match is 1VCF 0.002
+The top 7 match is 2AWA 0.002
+The top 8 match is 1H1O 0.002
+The top 9 match is 1U7B 0.002
+The top 10 match is 1I4A 0.002
+RMAX:  78
+The top 1 match is 2P1Y 0.002
+The top 2 match is 1N0E 0.002
+The top 3 match is 3FBY 0.002
+The top 4 match is 3FCN 0.002
+The top 5 match is 2W08 0.002
+The top 6 match is 1I4A 0.002
+The top 7 match is 1H1O 0.002
+The top 8 match is 3EYT 0.002
+The top 9 match is 1JSG 0.002
+The top 10 match is 1JJH 0.002
+RMAX:  79
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 2P1Y 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 1I4A 0.002
+The top 7 match is 3ELF 0.002
+The top 8 match is 2FIQ 0.002
+The top 9 match is 1B33 0.002
+The top 10 match is 2OQR 0.002
+RMAX:  80
+The top 1 match is 3FCN 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 2WAD 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2FIQ 0.002
+The top 7 match is 2OQR 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2P1Y 0.002
+RMAX:  81
+The top 1 match is 3FCN 0.002
+The top 2 match is 2WAD 0.002
+The top 3 match is 3FBY 0.002
+The top 4 match is 3ELF 0.002
+The top 5 match is 1JSG 0.002
+The top 6 match is 2OQR 0.002
+The top 7 match is 2FIQ 0.002
+The top 8 match is 1B33 0.002
+The top 9 match is 1I4A 0.002
+The top 10 match is 2GQF 0.002
+RMAX:  82
+The top 1 match is 2WAD 0.002
+The top 2 match is 3FBY 0.002
+The top 3 match is 3FCN 0.002
+The top 4 match is 2PG4 0.002
+The top 5 match is 1P49 0.002
+The top 6 match is 3ELF 0.002
+The top 7 match is 3BJO 0.002
+The top 8 match is 2GQF 0.002
+The top 9 match is 2Q06 0.002
+The top 10 match is 2OQR 0.002
+RMAX:  83
+The top 1 match is 1P49 0.002
+The top 2 match is 2PG4 0.002
+The top 3 match is 3BJO 0.002
+The top 4 match is 2WAD 0.002
+The top 5 match is 2Q06 0.002
+The top 6 match is 2GQF 0.002
+The top 7 match is 1XW3 0.002
+The top 8 match is 1AB4 0.002
+The top 9 match is 3GWY 0.002
+The top 10 match is 3FBY 0.002
+RMAX:  84
+The top 1 match is 1P49 0.002
+The top 2 match is 3BJO 0.002
+The top 3 match is 2PG4 0.002
+The top 4 match is 1XW3 0.002
+The top 5 match is 3GWY 0.002
+The top 6 match is 2Q06 0.002
+The top 7 match is 1AB4 0.002
+The top 8 match is 2PFD 0.002
+The top 9 match is 2GQF 0.002
+The top 10 match is 2PZI 0.002
+RMAX:  85
+The top 1 match is 1P49 0.002
+The top 2 match is 3BJO 0.002
+The top 3 match is 2PFD 0.002
+The top 4 match is 1XW3 0.002
+The top 5 match is 1ZKE 0.002
+The top 6 match is 3GWY 0.002
+The top 7 match is 1AB4 0.002
+The top 8 match is 2PZI 0.002
+The top 9 match is 2PG4 0.002
+The top 10 match is 2INR 0.002
+  10 elements,    1 clusters, @cutoff=0.800000
+mean_value, max_value, min_value, (max_value-min_value)
+79.6045909725 126.891441537 1 125.891441537
+Rank PDB_code cc (to the given model or the first model):
+1 3FCN
+ 2   3FBY  104.141
+ 3   2WAD  91.231
+ 4   3ELF  63.991
+ 5   1JSG  72.169
+ 6   2FIQ  66.476
+ 7   2OQR  65.307
+ 8   1B33  79.530
+ 9   1I4A  80.299
+10   2P1Y  61.606
+Volume is  983977.948763 +/- 80640.1142452 (A^3)
+cc. between Cluster average and PDB model
+0.887015449202
+0.88211406832
+0.889930997077
+0.9104661067
+0.923243196663
+0.713083688748
+0.81019287128
+0.715428224869
+0.705081484595
+0.693684009735
+level n:  10 0.813024009719
+0.900140527899
+0.905285577555
+0.903215684389
+0.923536274799
+0.929826657504
+0.719907615563
+0.830270250641
+0.730706146241
+0.715272747585
+0.704493444135
+level n:  9 0.826265492631
+0.912821237928
+0.915233981402
+0.926446078792
+0.928549663447
+0.934835199079
+0.731074294872
+0.835056006106
+0.739937011988
+0.723950577631
+0.724150639675
+level n:  8 0.837205469092
+0.925342999321
+0.930889247218
+0.940014904042
+0.947388438004
+0.940835107095
+0.766285475356
+0.845709063737
+0.776312185043
+0.740696936257
+0.746986946159
+level n:  7 0.856046130223
+0.938075881306
+0.947036854366
+0.960289851164
+0.955117755041
+0.956128681204
+0.788271868043
+0.862140639945
+0.798031829419
+0.761222139318
+0.775103656538
+level n:  6 0.874141915634
+0.948116042744
+0.951861468749
+0.972352024703
+0.969066572661
+0.955611766741
+0.86161070737
+0.857147440704
+0.845465363492
+0.803725679046
+0.804687411523
+level n:  5 0.896964447773
+0.972477853814
+0.976690396703
+0.979094176892
+0.978175089871
+0.977828830231
+0.917512988396
+0.894910908095
+0.883665091609
+0.845367313506
+0.824932186677
+level n:  4 0.925065483579
+consistency level to order n: 4
+cluster  #  1 cc= 115.819136335
+Averaged Model #1 Volume is 921865.372067 (A^3)
+total time used:  68.5884609222 (seconds)
+__END__

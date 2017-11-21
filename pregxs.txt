@@ -1,0 +1,18 @@
+the Input parameters are:
+['data=/Users/Song/Desktop/examples/pr/bioisis32.dat', 'd_max=50', 'scan=False', 'output=/Users/Song/Desktop/Pr_Estimation/bioisis32']
+#phil __OFF__
+-------------------P(r) Estimation using parametric function-------------------
+
+#phil __ON__
+#phil __END__
+ ====  Data reduction ==== 
+  Preprocessing of data increases efficiency of shape retrieval procedure.
+
+   -  Interpolation stepsize                           :  1.000e-02
+   -  Uniform density criteria:  level is set to       :  1.000e-04
+                                 maximum q to consider :  3.098e-01
+      Resulting q range to use in  search:   q start   :  1.247e-02
+                                             q stop    :  3.098e-01
+WARNING: number of parameters is larger than maximum number of shannon channels covered by expt data
+4.37507414818 time use
+__END__

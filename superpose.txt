@@ -1,0 +1,19 @@
+the Input parameters are:
+['fix=/Users/Song/Desktop/examples/refine/a.pdb', 'typef=pdb', 'mov=/Users/Song/Desktop/examples/refine/b.pdb', 'typem=pdb', 'nmax=15', 'write_map=False']
+#phil __OFF__
+-------------------Align molecular models in various format (PDB/NLM/XPLOR) ---------------------
+
+#phil __ON__
+#phil __END__
+doing alignment
+#############  SUMMARY of ALIGNMENT  #############
+Correlation Coefficient Between two models is: 16535.146035
+Rmax is                                      : 37.7389855994
+Center of Mass is shifted to                 : [37.7389855994465, 37.7389855994465, 37.7389855994465]
+OUTPUT files are : 
+  /Users/Song/Desktop/Model_Superposition/a_za.nlm
+  /Users/Song/Desktop/Model_Superposition/a_za.pdb
+  /Users/Song/Desktop/Model_Superposition/b_za.nlm
+  /Users/Song/Desktop/Model_Superposition/b_za.pdb
+#############     END of SUMMARY     #############
+__END__

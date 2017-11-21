@@ -1,0 +1,13 @@
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32.sum
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32.rmax_profile
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32.sta
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m2_3FBY.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m3_2WAD.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m4_3ELF.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m5_1JSG.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m6_2FIQ.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m7_2OQR.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m8_1B33.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m9_1I4A.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32m10_2P1Y.ccp4
+/Users/Song/Desktop/Shape_Search_Engine/bioisis32ave_1.ccp4

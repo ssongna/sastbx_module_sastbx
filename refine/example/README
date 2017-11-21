@@ -1,0 +1,4 @@
+this is an example of normal mode refinement:
+start.pdb and final.pdb are two different conformations of LAO protein 
+target.pr is based on final.pdb
+

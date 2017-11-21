@@ -1,0 +1,310 @@
+  Number of sites at special positions: 0
+Bond restraints: 1830
+Sorted by residual:
+bond pdb=" N   GLY A  28 "
+     pdb=" CA  GLY A  28 "
+  ideal  model  delta    sigma   weight residual
+  1.451  5.099 -3.648 1.60e-02 3.91e+03 5.20e+04
+bond pdb=" N   PRO A 101 "
+     pdb=" CD  PRO A 101 "
+  ideal  model  delta    sigma   weight residual
+  1.473  4.236 -2.763 1.40e-02 5.10e+03 3.89e+04
+bond pdb=" N   TRP A 130 "
+     pdb=" CA  TRP A 130 "
+  ideal  model  delta    sigma   weight residual
+  1.458  5.203 -3.745 1.90e-02 2.77e+03 3.88e+04
+bond pdb=" N   GLY A   9 "
+     pdb=" CA  GLY A   9 "
+  ideal  model  delta    sigma   weight residual
+  1.451  4.560 -3.109 1.60e-02 3.91e+03 3.78e+04
+bond pdb=" N   GLY A 192 "
+     pdb=" CA  GLY A 192 "
+  ideal  model  delta    sigma   weight residual
+  1.451  4.557 -3.106 1.60e-02 3.91e+03 3.77e+04
+bond pdb=" N   GLU A 123 "
+     pdb=" CA  GLU A 123 "
+  ideal  model  delta    sigma   weight residual
+  1.458  5.045 -3.587 1.90e-02 2.77e+03 3.56e+04
+bond pdb=" N   SER A  84 "
+     pdb=" CA  SER A  84 "
+  ideal  model  delta    sigma   weight residual
+  1.458  4.513 -3.055 1.90e-02 2.77e+03 2.59e+04
+bond pdb=" N   THR A  13 "
+     pdb=" CA  THR A  13 "
+  ideal  model  delta    sigma   weight residual
+  1.458  4.475 -3.017 1.90e-02 2.77e+03 2.52e+04
+bond pdb=" N   ASP A 128 "
+     pdb=" CA  ASP A 128 "
+  ideal  model  delta    sigma   weight residual
+  1.458  4.443 -2.985 1.90e-02 2.77e+03 2.47e+04
+bond pdb=" N   LYS A  60 "
+     pdb=" CA  LYS A  60 "
+  ideal  model  delta    sigma   weight residual
+  1.458  4.422 -2.964 1.90e-02 2.77e+03 2.43e+04
+... (remaining 1820 not shown)
+Nonbonded interactions: 16034
+Sorted by model distance:
+nonbonded pdb=" O   LYS A  62 "
+          pdb=" CA  LYS A  63 "
+   model   vdw
+   0.236 2.776
+nonbonded pdb=" CG  LEU A  59 "
+          pdb=" CG  LYS A  60 "
+   model   vdw
+   0.419 3.870
+nonbonded pdb=" N   ILE A  27 "
+          pdb=" CG2 ILE A  27 "
+   model   vdw
+   0.453 2.832
+nonbonded pdb=" CA  GLU A 123 "
+          pdb=" OD1 ASN A 127 "
+   model   vdw
+   0.489 3.470
+nonbonded pdb=" O   LEU A   2 "
+          pdb=" CD  PRO A   3 "
+   model   vdw
+   0.588 2.752
+nonbonded pdb=" N   ILE A  67 "
+          pdb=" CG1 ILE A  67 "
+   model   vdw
+   0.595 2.816
+nonbonded pdb=" N   ILE A  31 "
+          pdb=" CG1 ILE A  31 "
+   model   vdw
+   0.604 2.816
+nonbonded pdb=" N   HIS A 113 "
+          pdb=" OD2 ASP A 156 "
+   model   vdw
+   0.625 3.120
+nonbonded pdb=" CZ  TYR A 125 "
+          pdb=" OD1 ASN A 129 "
+   model   vdw
+   0.627 3.260
+nonbonded pdb=" N   LEU A 199 "
+          pdb=" CD1 LEU A 199 "
+   model   vdw
+   0.633 3.540
+... (remaining 16024 not shown)
+
+Energies at start of minimization:
+target: 2.08622e+06
+  bond_residual_sum (n=1830): 1.56606e+06
+  nonbonded_residual_sum (n=16034): 129729
+  angle_residual_sum (n=2476): 301849
+  dihedral_residual_sum (n=655): 37495.5
+  chirality_residual_sum (n=276): 49572.1
+  planarity_residual_sum (n=325): 1516.75
+  norm of gradients: 216269
+
+Number of minimization iterations: 500
+Root-mean-square coordinate difference: 1.896
+
+Energies at end of minimization:
+target: 1188.27
+  bond_residual_sum (n=1830): 27.8483
+  nonbonded_residual_sum (n=14046): 470.439
+  angle_residual_sum (n=2476): 345.408
+  dihedral_residual_sum (n=655): 315.44
+  chirality_residual_sum (n=276): 25.6796
+  planarity_residual_sum (n=325): 3.45384
+  norm of gradients: 511.939
+
+Bond restraints: 1830
+Sorted by residual:
+bond pdb=" CA  LYS A  39 "
+     pdb=" C   LYS A  39 "
+  ideal  model  delta    sigma   weight residual
+  1.525  1.546 -0.021 2.10e-02 2.27e+03 1.03e+00
+bond pdb=" CA  TYR A 190 "
+     pdb=" C   TYR A 190 "
+  ideal  model  delta    sigma   weight residual
+  1.525  1.545 -0.020 2.10e-02 2.27e+03 9.14e-01
+bond pdb=" CA  GLU A 123 "
+     pdb=" C   GLU A 123 "
+  ideal  model  delta    sigma   weight residual
+  1.525  1.544 -0.019 2.10e-02 2.27e+03 8.15e-01
+bond pdb=" N   LYS A 201 "
+     pdb=" CA  LYS A 201 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.475 -0.017 1.90e-02 2.77e+03 8.11e-01
+bond pdb=" CA  VAL A 163 "
+     pdb=" C   VAL A 163 "
+  ideal  model  delta    sigma   weight residual
+  1.525  1.542 -0.017 2.10e-02 2.27e+03 6.59e-01
+bond pdb=" C   GLU A 123 "
+     pdb=" N   ALA A 124 "
+  ideal  model  delta    sigma   weight residual
+  1.329  1.340 -0.011 1.40e-02 5.10e+03 6.38e-01
+bond pdb=" CA  VAL A  43 "
+     pdb=" CB  VAL A  43 "
+  ideal  model  delta    sigma   weight residual
+  1.540  1.561 -0.021 2.70e-02 1.37e+03 6.26e-01
+bond pdb=" CB  PRO A  16 "
+     pdb=" CG  PRO A  16 "
+  ideal  model  delta    sigma   weight residual
+  1.492  1.531 -0.039 5.00e-02 4.00e+02 6.07e-01
+bond pdb=" N   VAL A  43 "
+     pdb=" CA  VAL A  43 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.473 -0.015 1.90e-02 2.77e+03 6.05e-01
+bond pdb=" C   LYS A  39 "
+     pdb=" N   ARG A  40 "
+  ideal  model  delta    sigma   weight residual
+  1.329  1.339 -0.010 1.40e-02 5.10e+03 5.54e-01
+... (remaining 1820 not shown)
+
+  Number of sites at special positions: 0
+Bond restraints: 1830
+Sorted by residual:
+bond pdb=" N   ALA A  66 "
+     pdb=" CA  ALA A  66 "
+  ideal  model  delta    sigma   weight residual
+  1.458  8.741 -7.283 1.90e-02 2.77e+03 1.47e+05
+bond pdb=" N   GLY A 192 "
+     pdb=" CA  GLY A 192 "
+  ideal  model  delta    sigma   weight residual
+  1.451  7.503 -6.052 1.60e-02 3.91e+03 1.43e+05
+bond pdb=" N   TRP A 130 "
+     pdb=" CA  TRP A 130 "
+  ideal  model  delta    sigma   weight residual
+  1.458  7.927 -6.469 1.90e-02 2.77e+03 1.16e+05
+bond pdb=" N   ALA A  89 "
+     pdb=" CA  ALA A  89 "
+  ideal  model  delta    sigma   weight residual
+  1.458  7.605 -6.147 1.90e-02 2.77e+03 1.05e+05
+bond pdb=" N   PRO A 101 "
+     pdb=" CD  PRO A 101 "
+  ideal  model  delta    sigma   weight residual
+  1.473  5.904 -4.431 1.40e-02 5.10e+03 1.00e+05
+bond pdb=" N   ASP A 161 "
+     pdb=" CA  ASP A 161 "
+  ideal  model  delta    sigma   weight residual
+  1.458  6.891 -5.433 1.90e-02 2.77e+03 8.18e+04
+bond pdb=" N   PRO A 101 "
+     pdb=" CA  PRO A 101 "
+  ideal  model  delta    sigma   weight residual
+  1.466  5.692 -4.226 1.50e-02 4.44e+03 7.94e+04
+bond pdb=" N   ALA A 208 "
+     pdb=" CA  ALA A 208 "
+  ideal  model  delta    sigma   weight residual
+  1.458  6.627 -5.169 1.90e-02 2.77e+03 7.40e+04
+bond pdb=" N   THR A  13 "
+     pdb=" CA  THR A  13 "
+  ideal  model  delta    sigma   weight residual
+  1.458  6.481 -5.023 1.90e-02 2.77e+03 6.99e+04
+bond pdb=" N   PHE A 191 "
+     pdb=" CA  PHE A 191 "
+  ideal  model  delta    sigma   weight residual
+  1.458  6.444 -4.986 1.90e-02 2.77e+03 6.89e+04
+... (remaining 1820 not shown)
+Nonbonded interactions: 17410
+Sorted by model distance:
+nonbonded pdb=" CA  GLU A  80 "
+          pdb=" NZ  LYS A 201 "
+   model   vdw
+   0.116 3.550
+nonbonded pdb=" O   PRO A  16 "
+          pdb=" N   PHE A  29 "
+   model   vdw
+   0.212 3.120
+nonbonded pdb=" C   PRO A 104 "
+          pdb=" CZ2 TRP A 130 "
+   model   vdw
+   0.213 3.570
+nonbonded pdb=" O   GLU A 162 "
+          pdb=" N   SER A 166 "
+   model   vdw
+   0.244 3.120
+nonbonded pdb=" N   LYS A 201 "
+          pdb=" O   LYS A 201 "
+   model   vdw
+   0.304 2.496
+nonbonded pdb=" OG  SER A  84 "
+          pdb=" CG1 VAL A 197 "
+   model   vdw
+   0.311 3.460
+nonbonded pdb=" O   PRO A  57 "
+          pdb=" CA  SER A  58 "
+   model   vdw
+   0.322 2.776
+nonbonded pdb=" O   LYS A  20 "
+          pdb=" N   PHE A  26 "
+   model   vdw
+   0.354 3.120
+nonbonded pdb=" O   LEU A  33 "
+          pdb=" CE  MET A  37 "
+   model   vdw
+   0.360 3.460
+nonbonded pdb=" CG  ASP A  91 "
+          pdb=" CE  LYS A 186 "
+   model   vdw
+   0.378 3.670
+... (remaining 17400 not shown)
+
+Energies at start of minimization:
+target: 4.97647e+06
+  bond_residual_sum (n=1830): 4.20387e+06
+  nonbonded_residual_sum (n=17410): 250361
+  angle_residual_sum (n=2476): 377526
+  dihedral_residual_sum (n=655): 41885.2
+  chirality_residual_sum (n=276): 101267
+  planarity_residual_sum (n=325): 1557.47
+  norm of gradients: 351481
+
+Number of minimization iterations: 500
+Root-mean-square coordinate difference: 2.404
+
+Energies at end of minimization:
+target: 1619.92
+  bond_residual_sum (n=1830): 39.8487
+  nonbonded_residual_sum (n=14179): 648.043
+  angle_residual_sum (n=2476): 511.979
+  dihedral_residual_sum (n=655): 369.945
+  chirality_residual_sum (n=276): 45.2994
+  planarity_residual_sum (n=325): 4.8005
+  norm of gradients: 551.077
+
+Bond restraints: 1830
+Sorted by residual:
+bond pdb=" CA  VAL A 163 "
+     pdb=" C   VAL A 163 "
+  ideal  model  delta    sigma   weight residual
+  1.525  1.545 -0.020 2.10e-02 2.27e+03 9.45e-01
+bond pdb=" N   VAL A  43 "
+     pdb=" CA  VAL A  43 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.476 -0.018 1.90e-02 2.77e+03 8.86e-01
+bond pdb=" N   LYS A 201 "
+     pdb=" CA  LYS A 201 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.475 -0.017 1.90e-02 2.77e+03 8.07e-01
+bond pdb=" C   TYR A  14 "
+     pdb=" N   ALA A  15 "
+  ideal  model  delta    sigma   weight residual
+  1.329  1.342 -0.013 1.40e-02 5.10e+03 8.00e-01
+bond pdb=" N   MET A 226 "
+     pdb=" CA  MET A 226 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.475 -0.017 1.90e-02 2.77e+03 7.80e-01
+bond pdb=" N   ALA A  15 "
+     pdb=" CA  ALA A  15 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.475 -0.017 1.90e-02 2.77e+03 7.61e-01
+bond pdb=" N   ALA A  66 "
+     pdb=" CA  ALA A  66 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.474 -0.016 1.90e-02 2.77e+03 7.44e-01
+bond pdb=" N   TYR A 223 "
+     pdb=" CA  TYR A 223 "
+  ideal  model  delta    sigma   weight residual
+  1.458  1.474 -0.016 1.90e-02 2.77e+03 7.14e-01
+bond pdb=" CA  VAL A  43 "
+     pdb=" CB  VAL A  43 "
+  ideal  model  delta    sigma   weight residual
+  1.540  1.562 -0.022 2.70e-02 1.37e+03 6.94e-01
+bond pdb=" CA  PHE A 169 "
+     pdb=" C   PHE A 169 "
+  ideal  model  delta    sigma   weight residual
+  1.525  1.542 -0.017 2.10e-02 2.27e+03 6.46e-01
+... (remaining 1820 not shown)
+

@@ -1,0 +1,12 @@
+Ifit.py   :  calculate the P(r) based on I(q), given Dmax as input parameter
+integrating_a_weighted_sinc_function.py:  Gauss-Legendre numerical integration to calculate I(q)
+prfit2.py :  P(r) fitting (back up)
+Prfit.py  :  P(r) fitting (in use)
+pr.py     :  Calculate P(r) based on PDB file
+
+======
+
+IfitUfit.py : fitting with constraints readed in from cheb_coef.dat
+bounds.py   : class definition that contains constraint information
+IUfit.py    : fitting without constraints
+cheb_coef.dat: constraint information, with colunms: min--max--mean--var

@@ -1,0 +1,21 @@
+the Input parameters are:
+['structure=/Users/Song/Desktop/examples/iq/2e2g.pdb', 'n_step=51', 'q_stop=0.5', 'method=she', 'q_start=0', 'output=/Users/Song/Desktop/intensity_curve/2e2g.iq']
+#phil __OFF__
+
+============================================================================
+                        Debye/SHE/Zernike Model
+   Model data from a Debye or Spherical Harmonics/Zernike Expansion engine
+============================================================================
+
+
+
+#phil __ON__
+#phil __END__
+Inner surface Area of the Envelop is (A^2.0):  36649.4770686
+Inner Volume of the Envelop is       (A^3.0):  725523.198949
+Volume of the Envelop shell is       (A^3.0):  117168.080072
+Done! total time used: 1.4993e+01 (seconds)
+start running at:                 Sun Nov 19 18:38:54 2017
+finished PDB file processing at:  Sun Nov 19 18:38:57 2017
+got all desired I(q) at :         Sun Nov 19 18:39:09 2017
+__END__

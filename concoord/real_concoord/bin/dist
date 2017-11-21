@@ -1,0 +1,147 @@
+#!/bin/sh
+#
+# Wrapper script for the dist program
+# to allow interactive parameter selection
+#
+# Part of CONCOORD
+#
+# (C) Bert de Groot, 1996-2005
+#
+
+#
+# look for trivial errors
+#
+if test ! -d $CONCOORDLIB; then 
+echo The CONCOORDLIB environment variable does not point to a valid directory.
+echo Please check your CONCOORDRC file.
+exit 1
+fi
+
+#
+# check for command line options like -h that should immediately be passed 
+#
+for i in $*; do
+if test $i = -h; then
+dist.exe $*
+exit 0
+elif test $i = -V; then
+dist.exe $*
+exit 0
+fi
+done
+
+#
+# VdW parameters
+#
+echo "Select a set of Van der Waals parameters:"
+echo "1: OPLS-UA (united atoms) parameters"
+echo "2: OPLS-AA (all atoms) parameters"
+echo "3: PROLSQ repel parameters"
+echo "4: Yamber2 parameters"
+echo "5: Li et al. parameters"
+echo "6: OPLS-X parameters (recommended for NMR structure determination)"
+read vdw
+echo Selected parameter set $vdw
+
+if test $vdw = 1; then
+atoms=$CONCOORDLIB/ATOMS_oplsua.DAT
+margins=$CONCOORDLIB/MARGINS_oplsua.DAT
+elif test $vdw = 2; then
+atoms=$CONCOORDLIB/ATOMS_oplsaa.DAT
+margins=$CONCOORDLIB/MARGINS_oplsaa.DAT
+elif test $vdw = 3; then
+atoms=$CONCOORDLIB/ATOMS_repel.DAT
+margins=$CONCOORDLIB/MARGINS_repel.DAT
+elif test $vdw = 4; then
+atoms=$CONCOORDLIB/ATOMS_yamber2.DAT
+margins=$CONCOORDLIB/MARGINS_yamber2.DAT
+elif test $vdw = 5; then
+atoms=$CONCOORDLIB/ATOMS_li.DAT
+margins=$CONCOORDLIB/MARGINS_li.DAT
+elif test $vdw = 6; then
+atoms=$CONCOORDLIB/ATOMS_oplsx.DAT
+margins=$CONCOORDLIB/MARGINS_oplsx.DAT
+else
+echo Please select a value between 1 and 6
+exit 1
+fi
+
+if test -f $atoms; then
+echo copying $atoms to ATOMS.DAT in current working directory
+else
+echo $atoms not found
+echo Please check your CONCOORD installation.
+exit 1
+fi
+
+if test -f $margins; then
+echo copying $margins to MARGINS.DAT in current working directory
+else
+echo $margins not found
+echo Please check your CONCOORD installation.
+exit 1
+fi
+
+if test -f ATOMS.DAT ; then
+if test ! "$CONCOORD_OVERWRITE"; then
+echo ATOMS.DAT already present. Not overwritten.
+echo Remove or rename ATOMS.DAT, or set the environment variable CONCOORD_OVERWRITE to some value
+echo Instead, if you want to use your existing files, call "dist.exe" instead of dist
+exit 1
+fi
+fi
+
+if test -f MARGINS.DAT ; then
+if test ! "$CONCOORD_OVERWRITE"; then
+echo MARGINS.DAT already present. Not overwritten.
+echo Remove or rename MARGINS.DAT, or set the environment variable CONCOORD_OVERWRITE to some value
+echo Instead, if you want to use your existing files, call "dist.exe" instead of dist
+exit 1
+fi
+fi
+
+cp $atoms ATOMS.DAT
+cp $margins MARGINS.DAT
+
+
+#
+# Bond/Angle parameters
+#
+echo "Select a set of bond/angle parameters:"
+echo "1: Concoord default parameters"
+echo "2: Engh-Huber parameters"
+read bonds
+echo Selected parameter set $bonds
+
+if test $bonds = 1; then
+ba=$CONCOORDLIB/BONDS.DAT.noeh
+elif test $bonds = 2; then
+ba=$CONCOORDLIB/BONDS.DAT
+else
+echo Please select either 1 or 2
+exit 1
+fi
+
+if test -f $ba; then
+echo copying $ba to BONDS.DAT in current working directory
+else
+echo $ba not found
+echo Please check your CONCOORD installation.
+exit 1
+fi
+
+if test -f BONDS.DAT; then
+if test ! "$CONCOORD_OVERWRITE"; then
+echo BONDS.DAT already present. Not overwritten.
+echo Remove or rename BONDS.DAT, or set the environment variable CONCOORD_OVERWRITE to some value
+echo Instead, if you want to use your existing files, call "dist.exe" instead of dist
+exit 1
+fi 
+fi
+
+cp $ba BONDS.DAT
+
+#
+# and do the actual call to the dist executable
+#
+dist.exe $*

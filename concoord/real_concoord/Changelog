@@ -1,0 +1,34 @@
+New features in 2.1:
+-parallel operation on SMP machines
+-more robust structure generation due to dynamical adaptation of tolerances
+ (option -dyn in disco)
+-optional structure regularisation for generated structures (-reg disco option)
+-disco options -rc and -l for more flexible user control of de-bumping
+-improved user control over convergence checks (-con option of disco)
+-enhanced efficiency due to grid-based neighbour searching
+-enhanced diagnostics
+-disco option -on to write NMR-style PDB files
+-major efficiency enhancement due to reorganisation of inner loops.
+
+New features in 2.0:
+-structure building based on NMR-NOE data
+-improved bump checking (-bump option of disco)
+-Engh/Huber bond+angle parameters implemented
+-improved bond + angle geometries
+-improved treatment of planar groups
+-tetragonal bound smoothing implemented (-bs 6 or higher in disco)
+-interactive selection of van der Waals parameters to be used:
+ 1: OPLS-UA (united atoms) parameters
+ 2: OPLS-AA (all atoms) parameters
+ 3: PROLSQ repel parameters
+ 4: Yamber2 parameters
+ 5: Li et al. parameters
+-interactive selection of bonded parameters to be used
+-disco option for slow-converging cases (-damp 2, 4, 8...)
+-refinement mode (-damp 2, -ref) for structure/geometry optimisation in disco
+-dynamic memory allocation throughout concoord
+-both dist and disco write more statistics
+-improved version control
+-lots of minor features and cleanups
+-lots of small bug fixes (and a few additions ;-)
+
